@@ -17,16 +17,18 @@
             "name": "next"
          }
       ],
+      "baseUrl": ".",
       "paths": {
-         "@/*": ["./*"]
-      }
+         "~/*": ["./src/*"]
+      },
+      "target": "ESNext"
    },
    "include": [
       "next-env.d.ts",
       "**/*.ts",
       "**/*.tsx",
       ".next/types/**/*.ts",
-      "app/env.mjs"
+      "src/lib/env.mjs"
    ],
    "exclude": ["node_modules"]
 }
