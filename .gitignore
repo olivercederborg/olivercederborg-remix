@@ -37,3 +37,9 @@ next-env.d.ts
 
 # drizzle
 /drizzle
+
+# intellij
+.idea
+
+# zed
+.zed
